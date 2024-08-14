@@ -1,9 +1,9 @@
 Olá, me chamo Joaquim Guilherme de S. Ramos
 #### Atualmente estou no SENAI, cursando Desenvolvimento de Sistemas
 
-[![@Instagran](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/joaorodolfo16/)
+[![@Instagran](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/joaquimgsr/)
 [![@Steam](https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white
-)](https://steamcommunity.com/id/jocasquin)
+)](https://steamcommunity.com/id/jocaquim)
 
 ![Joaquim GitHub stats](https://github-readme-stats.vercel.app/api?username=Joaquimtxt&show_icons=true&theme=dracula&hide_border=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Joaquimtxt&layout=compact&theme=dracula&hide_border=true)
