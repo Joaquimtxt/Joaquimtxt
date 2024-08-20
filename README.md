@@ -17,5 +17,5 @@ Olá, me chamo Joaquim Guilherme de S. Ramos
    <img align="center" alt="C#" src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white">
 </div>
 
-<img src="[https://raw.githubusercontent.com/Joaquimtxt/Joaquimtxt/output/github-contribution-grid-snake-dark.svg}">
+<img src="[https://raw.githubusercontent.com/Joaquimtxt/Joaquimtxt/blob/main/.github/workflows/github-contribution-grid-snake-dark.svg}">
 
