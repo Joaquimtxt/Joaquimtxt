@@ -7,7 +7,7 @@ Olá, me chamo Joaquim Guilherme de S. Ramos
 
 ![Joaquim GitHub stats](https://github-readme-stats.vercel.app/api?username=Joaquimtxt&show_icons=true&theme=dracula&hide_border=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Joaquimtxt&layout=compact&theme=dracula&hide_border=true)
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Joaquimtxt)](https://github.com/Joaquimtxt/github-readme-stats)
+[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Joaquimtxt)](https://github.com/anuraghazra/github-readme-stats)
 
 ### Tecnologias do dia a dia
 <div style="display: inline_block"><br>
