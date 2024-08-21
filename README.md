@@ -23,6 +23,6 @@ Olá, me chamo Joaquim Guilherme de S. Ramos
 
 <img
   src="https://github.com/Joaquimtxt/Joaquimtxt/blob/main/images/stat.svg"
-  alt="Alternative Text"
+  alt="Meus status"
 />
 
