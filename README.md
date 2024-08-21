@@ -19,5 +19,5 @@ Olá, me chamo Joaquim Guilherme de S. Ramos
 
 </br>
 
-![snake gif](https://github.com/Joaquimtxt/Joaquimtxt/blob/output/github-contribution-grid-snake.svg)
+![snake gif](https://github.com/Joaquimtxt/Joaquimtxt/blob/output/github-contribution-grid-snake-dark.svg)
 
