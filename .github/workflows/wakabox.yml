@@ -1,29 +1,27 @@
-# Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
-name: WakaTime
+name: WakaTime status update
+
 on:
-  schedule: [{ cron: "0 */12 * * *" }]
-  # Lines below let you run workflow manually and on each commit
-  workflow_dispatch:
-  push: { branches: ["master", "main"] }
+  schedule:
+    # Runs at 12 am  '0 0 * * *'  UTC
+    - cron: "1 0 * * *"
+
 jobs:
-  github-metrics:
+  update-readme:
+    name: Update the WakaTime Stat
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+      # Use avinal/Profile-Readme-WakaTime@<latest-release-tag> for latest stable release
+      # Do not change the line below until you have forked this repository
+      # If you have forked this project you can use <username>/Profile-Readme-WakaTime@master instead
+      - uses: Joaquimtxt/Profile-Readme-WakaTime@master
         with:
-          # Current configuration doesn't require a GitHub token
-          token: ${{ secrets.METRICS_TOKEN }}
-          plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
-          filename: assets/metrics.plugin.wakatime.svg
-
-          # Options
-          user: Envoy-VC
-          template: classic
-          base: ""
-          config_timezone: Asia/Calcutta
-          plugin_wakatime: yes
-          plugin_wakatime_days: 365
-          plugin_wakatime_limit: 5
-          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
-          plugin_wakatime_url: https://wakatime.com
-          plugin_wakatime_user: current
+          # WakaTime API key stored in secrets, do not directly paste it here
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          # Automatic github token
+          GITHUB_TOKEN: ${{ github.token }}
+          # Branch - newer GitHub repositories have "main" as default branch, change to main in that case, default is master
+          BRANCH: "master"
+          # Manual Commit messages - write your own messages here
+          COMMIT_MSG: "Automated Coding Activity Update :alien:"
+          # Range of fetching data - default is "last_7_days". See https://wakatime.com/developers#stats for more options
+          STATS_RANGE: "last_7_days"
