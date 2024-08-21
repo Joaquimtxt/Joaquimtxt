@@ -17,10 +17,10 @@ jobs:
           filename: assets/metrics.plugin.wakatime.svg
 
           # Options
-          user: Envoy-VC
+          user: Joaquimtxt
           template: classic
           base: ""
-          config_timezone: Asia/Calcutta
+          config_timezone: America/Sao_Paulo 
           plugin_wakatime: yes
           plugin_wakatime_days: 365
           plugin_wakatime_limit: 5
