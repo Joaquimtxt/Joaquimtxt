@@ -9,6 +9,11 @@ Hi, my name is Joaquim Guilherme de S. Ramos
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Joaquimtxt&layout=compact&theme=dracula&hide_border=true)
 
 
+<div class="inline_block">
+  <img alt="Zenitsu from Demon slayer, doing a surprised and funny face" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2022/08/Zenitsu-from-Demon-Slayer.jpg" width="780" height="390"> 
+</div>
+
+
 ### Most used languages
 <div style="display: inline_block"><br>
   <img align="center" alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
