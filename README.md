@@ -1,9 +1,16 @@
-Hi, my name is Joaquim Guilherme de S. Ramos
-#### Today I'm studying System Development at Senai!
 
-[![@Instagran](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/joaquimgsr/)
+<body>
+  <header>
+    <div>
+<p>Hi, my name is Joaquim Guilherme de S. Ramos</p>
+<p>#### Today I'm studying System Development at Senai!</p>
+  
+[![@Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/joaquimgsr/)
 [![@Steam](https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white
 )](https://steamcommunity.com/id/jocaquim)
+</div>
+<hr/>
+  </header>
 
 ![Joaquim GitHub stats](https://github-readme-stats.vercel.app/api?username=Joaquimtxt&show_icons=true&theme=dracula&hide_border=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Joaquimtxt&layout=compact&theme=dracula&hide_border=true)
@@ -28,10 +35,12 @@ Hi, my name is Joaquim Guilherme de S. Ramos
      <img align="center" alt="arduino" src="https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white">
     <img align="center" alt="MSSQL" src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white">  
   </div>
-
+<hr/>
 </br>
 
-![snake gif](https://github.com/Joaquimtxt/Joaquimtxt/blob/output/github-contribution-grid-snake-dark.svg)
+![snake gif](https://github.com/Joaquimtxt/Joaquimtxt/blob/output/github-contribution-grid-snake-dark.svg) 
+</body>
+
 
 
 
