@@ -10,7 +10,7 @@ Hi, my name is Joaquim Guilherme de S. Ramos
 
 
 <div class="inline_block">
-  <img alt="Zenitsu from Demon slayer, doing a surprised and funny face" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2022/08/Zenitsu-from-Demon-Slayer.jpg" width="780" height="390"> 
+  <img alt="Zenitsu from Demon slayer, doing a surprised and funny face" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2022/08/Zenitsu-from-Demon-Slayer.jpg" width="770" height="385"> 
 </div>
 
 
