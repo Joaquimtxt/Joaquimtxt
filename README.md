@@ -2,8 +2,8 @@
 <body>
   <header>
     <div>
-<p>Hi, my name is Joaquim Guilherme de S. Ramos</p>
-<p>#### Today I'm studying System Development at Senai! 🏎️💨 </p>
+<h4>Hi, my name is Joaquim Guilherme de S. Ramos</h4>
+<h5>Today I'm studying System Development at Senai! 🏎️💨 <h5>
   
 [![@Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/joaquimgsr/)
 [![@Steam](https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white
@@ -11,7 +11,7 @@
 </div>
 <hr/>
   </header>
-  ⚙️ GitHub Analytics
+  <h3>⚙️ GitHub Analytics</h3>
 
 <table>
   <tr>
@@ -42,7 +42,7 @@
 </table>
 
 
-###Most used languages
+<h3>🤖Most used languages</h3>
 <table>
   <tr>
     <td>
