@@ -3,7 +3,7 @@
   <header>
     <div>
 <p>Hi, my name is Joaquim Guilherme de S. Ramos</p>
-<p>#### Today I'm studying System Development at Senai!</p>
+<p>#### Today I'm studying System Development at Senai! 🏎️💨 </p>
   
 [![@Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/joaquimgsr/)
 [![@Steam](https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white
