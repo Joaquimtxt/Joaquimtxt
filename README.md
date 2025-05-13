@@ -35,7 +35,7 @@
 <table align="center">
   <tr>
     <td>  
-      <img alt="Zenitsu from Demon slayer, doing a surprised and funny face" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2022/08/Zenitsu-from-Demon-Slayer.jpg" width="834" height="417"> 
+      <img alt="Eva 01 from the anime Evangelion, it's a giant mecha, purple, and with cyan details, looking forward." src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8f696566-9528-4234-a4d3-ebdfdc6cab59/dhkrjmi-04d4f053-0c1d-4e38-a120-243286ecc5e6.jpg/v1/fill/w_1280,h_718,q_75,strp/eva_unit_01_by_slimshadywallpaper_dhkrjmi-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhmNjk2NTY2LTk1MjgtNDIzNC1hNGQzLWViZGZkYzZjYWI1OVwvZGhrcmptaS0wNGQ0ZjA1My0wYzFkLTRlMzgtYTEyMC0yNDMyODZlY2M1ZTYuanBnIiwiaGVpZ2h0IjoiPD03MTgiLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC84ZjY5NjU2Ni05NTI4LTQyMzQtYTRkMy1lYmRmZGM2Y2FiNTlcL3NsaW1zaGFkeXdhbGxwYXBlci00LnBuZyIsIm9wYWNpdHkiOjk1LCJwcm9wb3J0aW9ucyI6MC40NSwiZ3Jhdml0eSI6ImNlbnRlciJ9fQ.0R3LMWAO62-eW1q-kuOGzjpN-X03XTJ42wNVKwBudns" width="834" height="417"> 
 </td>
 
   </tr>
