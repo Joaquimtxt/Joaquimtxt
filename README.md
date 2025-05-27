@@ -89,9 +89,14 @@
 </div>
  <div align="center" class="scene" >
    <h3 ><i>Going to the space...</i></h3>
-
-   
+   <table align="center">
+  <tr>
+    <td>
+      
    ![nave animada](https://github.com/Joaquimtxt/Joaquimtxt/blob/main/assets/nave.gif)
+    </td>
+  </tr>
+</table>
   </div>
   
    </br>
