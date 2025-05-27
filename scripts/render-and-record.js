@@ -6,6 +6,9 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+// Garante que a pasta 'assets' exista
+fs.mkdirSync('assets', { recursive: true });
+
 (async () => {
   const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
   const page = await browser.newPage();
@@ -25,5 +28,10 @@ function sleep(ms) {
 
   await browser.close();
 
-  execSync(`ffmpeg -y -framerate 10 -i ${framesDir}/frame_%03d.png -vf "scale=500:-1" assets/nave.gif`);
+  try {
+    execSync(`ffmpeg -y -framerate 10 -i ${framesDir}/frame_%03d.png -vf "scale=500:-1" assets/nave.gif`);
+  } catch (error) {
+    console.error('Erro ao executar ffmpeg:', error.message);
+    process.exit(1);
+  }
 })();
