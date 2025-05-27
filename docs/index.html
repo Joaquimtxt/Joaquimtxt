@@ -22,13 +22,14 @@
       height: 100vh;
     }
 
-    .stars {
+    .star {
       position: absolute;
-      width: 200%;
-      height: 100%;
-      background: url('space-background.png') repeat;
-      background-size: cover;
-      animation: moveStars 20s linear infinite;
+      width: 2px;
+      height: 2px;
+      background: white;
+      border-radius: 50%;
+      opacity: 0.8;
+      animation: moveStar 5s linear infinite;
     }
 
     .spaceship {
@@ -42,12 +43,12 @@
       z-index: 10;
     }
 
-    @keyframes moveStars {
+    @keyframes moveStar {
       from {
-        transform: translateX(0);
+        transform: translateY(0);
       }
       to {
-        transform: translateX(-50%);
+        transform: translateY(100vh);
       }
     }
 
@@ -62,9 +63,23 @@
   </style>
 </head>
 <body>
-  <div class="scene">
-    <div class="stars"></div>
+  <div class="scene" id="scene">
     <img src="SwordFish.png" alt="Spaceship" class="spaceship">
   </div>
+
+  <script>
+    const scene = document.getElementById('scene');
+    const numStars = 100;
+
+    for (let i = 0; i < numStars; i++) {
+      const star = document.createElement('div');
+      star.classList.add('star');
+      star.style.left = Math.random() * window.innerWidth + 'px';
+      star.style.top = -Math.random() * window.innerHeight + 'px';
+      star.style.animationDuration = (3 + Math.random() * 3) + 's';
+      star.style.opacity = Math.random();
+      scene.appendChild(star);
+    }
+  </script>
 </body>
 </html>
