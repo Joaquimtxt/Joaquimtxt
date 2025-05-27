@@ -89,9 +89,11 @@
 </div>
  <div align="center" class="scene" >
    <h3 ><i>Going to the space...</i></h3>
+
+   
+   ![nave animada](https://github.com/Joaquimtxt/Joaquimtxt/blob/main/assets/nave.gif)
   </div>
   
-   ![nave animada](https://github.com/Joaquimtxt/Joaquimtxt/blob/main/assets/nave.gif)
    </br>
 <hr/>
 
