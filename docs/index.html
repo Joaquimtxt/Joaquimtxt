@@ -18,8 +18,11 @@
 
     .scene {
       position: relative;
-      width: 834px;
+      width: 100%;
       height: 100vh;
+      margin: 0 auto; /* centraliza horizontalmente na tela */
+      overflow: hidden; /* evitar que as estrelas escapem visualmente */
+      background: black;
     }
 
     .star {
@@ -29,7 +32,7 @@
       background: white;
       border-radius: 50%;
       opacity: 0.8;
-      animation: moveStar 5s linear infinite;
+      animation: moveStar linear infinite;
     }
 
     .spaceship {
@@ -48,7 +51,7 @@
         transform: translateX(0);
       }
       to {
-        transform: translateX(100vh);
+        transform: translateX(834px); /* se move da esquerda para direita da largura da scene */
       }
     }
 
@@ -74,10 +77,19 @@
     for (let i = 0; i < numStars; i++) {
       const star = document.createElement('div');
       star.classList.add('star');
-      star.style.left = Math.random() * window.innerWidth + 'px';
-      star.style.top = -Math.random() * window.innerHeight + 'px';
+
+   
+      star.style.top = Math.random() * scene.clientHeight + 'px';
+
+
+      star.style.left = -Math.random() * scene.clientWidth + 'px';
+
+  
       star.style.animationDuration = (3 + Math.random() * 3) + 's';
+
+    
       star.style.opacity = Math.random();
+
       scene.appendChild(star);
     }
   </script>
