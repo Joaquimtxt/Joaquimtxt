@@ -91,7 +91,7 @@
    <h3 ><i>Going to the space...</i></h3>
   </div>
   
-   ![nave animada](https://github.com/SEUNOME/SEUREPO/raw/main/assets/nave.gif)
+   ![nave animada](https://github.com/Joaquimtxt/Joaquimtxt/blob/main/assets/nave.gif)
    </br>
 <hr/>
 
