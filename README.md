@@ -90,8 +90,10 @@
  <div align="center" class="scene" >
    <h3 ><i>Going to the space...</i></h3>
   </div>
+  
+   ![nave animada](https://github.com/SEUNOME/SEUREPO/raw/main/assets/nave.gif)
+   </br>
 <hr/>
-</br>
 
 ![snake gif](https://github.com/Joaquimtxt/Joaquimtxt/blob/output/github-contribution-grid-snake-dark.svg) 
 </body>
