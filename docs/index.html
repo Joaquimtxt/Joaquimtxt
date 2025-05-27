@@ -18,13 +18,18 @@
       overflow: hidden;
       background: black;
     }
+    .container {
+  max-width: 1012px;
+  margin: 0 auto;
+  padding: 0 16px; /* como o GitHub costuma ter */
+}
 
     .scene {
       position: relative;
-      width: 100vw;
-      height: 70vh;
-      margin: 0 auto; /* centraliza horizontalmente na tela */
-      overflow: hidden; /* evitar que as estrelas escapem visualmente */
+      width: 100%;
+      height: 100vh;
+      margin: 0 auto; 
+      overflow: hidden; 
       background: black;
     }
 
@@ -41,7 +46,7 @@
     .spaceship {
       position: absolute;
       width: 100px;
-      height: auto;
+      height: 100px;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -69,9 +74,11 @@
   </style>
 </head>
 <body>
+<div class="container">
   <div class="scene" id="scene">
     <img src="SwordFish.png" alt="Spaceship" class="spaceship">
   </div>
+</div>
 
   <script>
     const scene = document.getElementById('scene');
