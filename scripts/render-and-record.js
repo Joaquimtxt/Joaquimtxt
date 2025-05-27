@@ -12,7 +12,7 @@ function sleep(ms) {
 
   await page.setViewport({ width: 500, height: 300 });
 
-  await page.goto(`file://${process.cwd()}/Docs/index.html`);
+  await page.goto(`file://${process.cwd()}/docs/index.html`);
   await sleep(2000); // espera a animação iniciar
 
   const framesDir = './frames';
