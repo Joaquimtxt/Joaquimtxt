@@ -27,7 +27,7 @@ jobs:
       - name: Render animation and capture as video
         run: |
           mkdir output
-          node .github/scripts/render-and-record.js
+          node scripts/render-and-record.js
 
       - name: Commit generated GIF
         run: |
