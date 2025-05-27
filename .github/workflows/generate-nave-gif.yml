@@ -20,19 +20,26 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install puppeteer
+          npm install puppeteer@21.3.8
           sudo apt-get update
           sudo apt-get install -y ffmpeg
 
-      - name: Render animation and capture as video
+      - name: Render animation and capture as GIF
         run: |
-          mkdir output
+          mkdir -p output
           node scripts/render-and-record.js
 
       - name: Commit generated GIF
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/nave.gif
-          git commit -m "Atualiza GIF da nave animada"
-          git push || echo "Nada para commitar"
+          if git diff --quiet; then
+            echo "Sem alterações no GIF"
+          else
+            git add assets/nave.gif
+            git commit -m "Atualiza GIF da nave animada"
+            git push
+          fi
+
+      - name: Clean up temp frames
+        run: rm -rf frames
