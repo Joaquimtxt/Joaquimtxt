@@ -1,0 +1,27 @@
+name: Deploy EVAs Page to GitHub Pages
+
+on:
+  push:
+    branches: [main] 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
+
+      - name: Copiar arquivos EVA e HTML para a pasta docs/
+        run: |
+          mkdir -p docs/assets
+          cp Eva01Pixelart.png docs/Eva01Pixelart.png
+          cp Eva02Pixelart.png docs/Eva02Pixelart.png
+          cp languagetable.html.html docs/languagetable.html
+
+      - name: Commit e push automático (se arquivos mudarem)
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add docs/
+          git diff --quiet && echo "Nenhuma mudança para commitar" || git commit -m "Atualiza HTML dos EVAs"
+          git push
