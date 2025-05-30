@@ -18,8 +18,11 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install puppeteer
+      - name: Instalar Puppeteer
         run: npm install puppeteer
+
+      - name: Criar pasta assets se não existir
+        run: mkdir -p assets
 
       - name: Gerar screenshot do HTML
         run: |
