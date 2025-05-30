@@ -13,7 +13,6 @@ const fs = require('fs');
     const filePath = `file://${path.resolve(__dirname, '../docs/languagetable.html')}`;
     await page.goto(filePath, { waitUntil: 'networkidle0' });
 
-    // Garante que a pasta 'assets' existe
     const outputDir = path.resolve(__dirname, '../assets');
     if (!fs.existsSync(outputDir)) {
       fs.mkdirSync(outputDir, { recursive: true });
@@ -26,6 +25,6 @@ const fs = require('fs');
     console.log('Screenshot salva em:', screenshotPath);
   } catch (err) {
     console.error('Erro ao gerar screenshot:', err);
-    process.exit(1); // Fails the script for GitHub Actions
+    process.exit(1);
   }
 })();
