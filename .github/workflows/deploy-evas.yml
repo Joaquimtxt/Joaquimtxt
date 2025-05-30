@@ -11,6 +11,9 @@ jobs:
       - name: Checkout do repositório
         uses: actions/checkout@v3
 
+      - name: Verificar arquivos no workspace
+        run:  ls -R
+
       - name: Copiar arquivos EVA e HTML para a pasta docs/
         run: |
           mkdir -p docs
