@@ -45,7 +45,7 @@
 <h3 align="center">🤖Most used languages</h3>
 <div align="center"> 
   
-![imagem linguagens](https://github.com/Joaquimtxt/Joaquimtxt/blob/main/assets/languagetable.png)
+![imagem linguagens](https://github.com/Joaquimtxt/Joaquimtxt/blob/main/assets/languagetable.png?v=1)
 
 </div>
  <div align="center" class="scene" >
