@@ -13,10 +13,11 @@ jobs:
 
       - name: Copiar arquivos EVA e HTML para a pasta docs/
         run: |
-          mkdir -p docs/assets
+          mkdir -p docs
           cp Eva01Pixelart.png docs/Eva01Pixelart.png
           cp Eva02Pixelart.png docs/Eva02Pixelart.png
-          cp languagetable.html.html docs/languagetable.html
+          cp languagetable.html docs/languagetable.html
+
 
       - name: Commit e push automático (se arquivos mudarem)
         run: |
