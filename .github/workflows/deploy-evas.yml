@@ -1,29 +1,43 @@
-name: Deploy EVAs Page to GitHub Pages
+name: Gerar imagem do HTML e atualizar README
 
 on:
   push:
-    branches: [main]
+    paths:
+      - 'docs/languagetable.html'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout do repositório
+      - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Listar arquivos no diretório atual
-        run: ls -la
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
 
-      - name: Copiar arquivos EVA e HTML para a pasta docs/
+      - name: Install puppeteer
+        run: npm install puppeteer
+
+      - name: Gerar screenshot do HTML
         run: |
-          cp docs/Eva01Pixelart.png
-          cp docs/Eva02Pixelart.png
-          cp docs/languagetable.html
+          node <<EOF
+          const puppeteer = require('puppeteer');
+          (async () => {
+            const browser = await puppeteer.launch();
+            const page = await browser.newPage();
+            await page.goto(`file://${process.cwd()}/docs/languagetable.html`);
+            await page.screenshot({ path: 'assets/languagetable.png', fullPage: true });
+            await browser.close();
+          })();
+          EOF
 
-      - name: Commit e push automático (se arquivos mudarem)
+      - name: Commit e push se mudou imagem
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add docs/
-          git diff --quiet && echo "Nenhuma mudança para commitar" || git commit -m "Atualiza HTML dos EVAs"
+          git add assets/languagetable.png
+          git diff --quiet && echo "Nenhuma mudança para commitar" || git commit -m "Atualiza imagem do languagetable"
           git push
