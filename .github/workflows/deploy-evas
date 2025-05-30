@@ -1,0 +1,36 @@
+name: Gerar imagem do HTML e atualizar README
+
+on:
+  push:
+    paths:
+      - 'docs/languagetable.html'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Instalar Puppeteer
+        run: npm install puppeteer
+
+      - name: Criar pasta assets se não existir
+        run: mkdir -p assets
+
+      - name: Gerar screenshot com Puppeteer
+        run: node scripts/screenshot.js
+
+      - name: Commit e push se mudou imagem
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add assets/languagetable.png
+          git diff --quiet && echo "Nenhuma mudança para commitar" || git commit -m "Atualiza imagem do languagetable"
+          git push
