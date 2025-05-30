@@ -4,10 +4,10 @@ on:
   push:
     paths:
       - 'docs/languagetable.html'
-  workflow_dispatch:
+      - 'scripts/screenshot.js'
 
 jobs:
-  build:
+  gerar-imagem:
     runs-on: ubuntu-latest
 
     steps:
@@ -19,25 +19,16 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Instalar Puppeteer
+      - name: Instalar dependências
         run: npm install puppeteer
 
-      - name: Criar pasta assets se não existir
-        run: mkdir -p assets
-
-      - name: Gerar screenshot com Puppeteer
+      - name: Executar script para gerar imagem
         run: node scripts/screenshot.js
 
-      - name: Verificar mudanças e fazer commit
+      - name: Commit e push se imagem foi atualizada
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
           git add assets/languagetable.png
-
-          # Só faz commit se houver mudanças
-          if ! git diff --cached --quiet; then
-            git commit -m "Atualiza imagem do languagetable"
-            git push
-          else
-            echo "Nenhuma mudança detectada na imagem"
-          fi
+          git diff --cached --quiet || git commit -m "Atualiza imagem do languagetable"
+          git push
