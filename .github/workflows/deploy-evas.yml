@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout do repositório
         uses: actions/checkout@v3
 
       - name: Setup Node.js
@@ -24,18 +24,8 @@ jobs:
       - name: Criar pasta assets se não existir
         run: mkdir -p assets
 
-      - name: Gerar screenshot do HTML
-        run: |
-          node <<EOF
-          const puppeteer = require('puppeteer');
-          (async () => {
-            const browser = await puppeteer.launch();
-            const page = await browser.newPage();
-            await page.goto(`file://${process.cwd()}/docs/languagetable.html`);
-            await page.screenshot({ path: 'assets/languagetable.png', fullPage: true });
-            await browser.close();
-          })();
-          EOF
+      - name: Gerar screenshot com Puppeteer
+        run: node scripts/screenshot.js
 
       - name: Commit e push se mudou imagem
         run: |
