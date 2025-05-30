@@ -2,7 +2,7 @@ name: Deploy EVAs Page to GitHub Pages
 
 on:
   push:
-    branches: [main] 
+    branches: [main]
 
 jobs:
   build:
@@ -20,7 +20,6 @@ jobs:
           cp Eva01Pixelart.png docs/Eva01Pixelart.png
           cp Eva02Pixelart.png docs/Eva02Pixelart.png
           cp languagetable.html docs/languagetable.html
-
 
       - name: Commit e push automático (se arquivos mudarem)
         run: |
