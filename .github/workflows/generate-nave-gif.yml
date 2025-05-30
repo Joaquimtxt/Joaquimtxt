@@ -3,7 +3,9 @@ name: Generate Nave Animation GIF
 on:
   push:
     branches: [main]
-  workflow_dispatch:
+    paths:
+      - 'scripts/render-and-record.js'
+      - 'assets/nave.gif'
 
 jobs:
   render-and-gif:
