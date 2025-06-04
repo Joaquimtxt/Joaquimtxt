@@ -48,6 +48,15 @@
 ![imagem linguagens](https://github.com/Joaquimtxt/Joaquimtxt/blob/main/assets/languagetable.png?v=1)
 
 </div>
+<div align="center">
+<h3>🔥 GitHub Streak </h3>
+<table align="center">
+  <tr>
+    <td>  
+      <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=Joaquimtxt&theme=radical&hide_border=true&exclude_days=Sun&card_width=834" alt="GitHub Streak" /></a> 
+</td>
+  </tr>
+</table>
  <div align="center" class="scene" >
    <h3 ><i>Going to the space...</i></h3>
    <table align="center">
