@@ -25,7 +25,7 @@
     <td>
       <img
         align="left"
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joaquimtxt&layout=compact&theme=radical&hide_border=true"
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joaquimtxt&layout=compact&theme=radical&hide_border=true&langs_count=8"
         alt="Github Top Languages stats"
       />
     </td>
