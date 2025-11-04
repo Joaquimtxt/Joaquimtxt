@@ -6,8 +6,9 @@
 <h3>Today I'm studying System Development at Senai! 🏎️💨 <h3>
   
 [![@Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/joaquimgsr/)
-[![@Steam](https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white
-)](https://steamcommunity.com/id/jocaquim)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)
+](https://www.linkedin.com/in/joaquimguisramos/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jocaq124@gmail.com)
 </div>
 <hr/>
   </header>
