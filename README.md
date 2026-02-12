@@ -3,7 +3,8 @@
   <header>
     <div align="center">
  <img alt="Hi my name's Joaquim" src="header.png"  width="868"> 
-<h3>Today I'm studying System Development at Senai! 🏎️💨 <h3>
+      <h3>I've already finished System Development at Senai. 🥳/</h3>
+<h3>Today I'm doing a degree in Multiplataform System Development at Fatec! 🏎️💨 <h3>
   
 [![@Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/joaquimgsr/)
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)
