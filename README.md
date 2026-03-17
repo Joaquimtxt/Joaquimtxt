@@ -3,7 +3,7 @@
   <header>
     <div align="center">
   <img 
-    src="https://readme-typing-svg.herokuapp.com?color=FFFFFF&size=35&center=true&vCenter=true&width=800&lines=Hi,+I'm+Joaquim;Back-end+Developer;Welcome+to+my+GitHub!" 
+    src="https://readme-typing-svg.herokuapp.com?color=00FF00&size=35&center=true&vCenter=true&width=800&lines=Hi,+I'm+Joaquim;Full-Stack+Developer;Welcome+to+my+GitHub;Where+I+build+Solutions!" 
     alt="Typing SVG" 
   />
       <h3>I've already finished System Development at Senai. 🥳</h3>
