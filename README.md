@@ -2,7 +2,10 @@
 <body>
   <header>
     <div align="center">
- <img alt="Hi my name's Joaquim" src="header.png"  width="868"> 
+  <img 
+    src="https://readme-typing-svg.herokuapp.com?color=FFFFFF&size=35&center=true&vCenter=true&width=800&lines=Hi,+I'm+Joaquim;Back-end+Developer;Welcome+to+my+GitHub!" 
+    alt="Typing SVG" 
+  />
       <h3>I've already finished System Development at Senai. 🥳</h3>
 <h3>Today I'm doing a degree in Multiplataform System Development at Fatec! 🏎️💨 <h3>
   
