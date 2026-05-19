@@ -37,20 +37,44 @@
   </tr>
 </table>
 
-<table align="center">
-  <tr>
-    <td>  
-      <img alt="Eva 01 from the anime Evangelion, it's a giant mecha, purple, and with cyan details, looking forward." src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8f696566-9528-4234-a4d3-ebdfdc6cab59/dhkrjmi-04d4f053-0c1d-4e38-a120-243286ecc5e6.jpg/v1/fill/w_1280,h_718,q_75,strp/eva_unit_01_by_slimshadywallpaper_dhkrjmi-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhmNjk2NTY2LTk1MjgtNDIzNC1hNGQzLWViZGZkYzZjYWI1OVwvZGhrcmptaS0wNGQ0ZjA1My0wYzFkLTRlMzgtYTEyMC0yNDMyODZlY2M1ZTYuanBnIiwiaGVpZ2h0IjoiPD03MTgiLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC84ZjY5NjU2Ni05NTI4LTQyMzQtYTRkMy1lYmRmZGM2Y2FiNTlcL3NsaW1zaGFkeXdhbGxwYXBlci00LnBuZyIsIm9wYWNpdHkiOjk1LCJwcm9wb3J0aW9ucyI6MC40NSwiZ3Jhdml0eSI6ImNlbnRlciJ9fQ.0R3LMWAO62-eW1q-kuOGzjpN-X03XTJ42wNVKwBudns" width="834" height="417"> 
-</td>
-
-  </tr>
-</table>
-
 
 <h3 align="center">🤖Most used languages</h3>
 <div align="center"> 
   
-![imagem linguagens](https://github.com/Joaquimtxt/Joaquimtxt/blob/main/assets/languagetable.png?v=1)
+ <table>
+    <tr>
+      <td>
+        <div style="white-space: nowrap;">
+          <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+          <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+          <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
+          <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+          <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React">
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div style="white-space: nowrap;">
+          <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#">
+          <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white" alt="SQL Server">
+          <img src="https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure">
+          <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
+          <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div style="white-space: nowrap;">
+          <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt="Figma">
+          <img src="https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white" alt="Arduino">
+          <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=Raspberry%20Pi&logoColor=white" alt="Raspberry Pi">
+          <img src="https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white" alt="Microsoft Office">
+        </div>
+      </td>
+    </tr>
+  </table>
 
 </div>
 <div align="center">
