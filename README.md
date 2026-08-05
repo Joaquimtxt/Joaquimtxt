@@ -30,7 +30,7 @@
     <td>
       <img
         align="left"
-              src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Joaquimtxt&layout=compact&theme=radical&hide_border=true&langs_count=8"
+              src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Joaquimtxt&layout=compact&theme=radical&hide_border=true&langs_count=10"
         alt="Github Top Languages stats"
       />
     </td>
