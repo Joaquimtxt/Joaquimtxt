@@ -77,6 +77,10 @@
   </table>
 
 </div>
+<h3 align="center">🎖️ Certificados</h3>
+<div align="center"> 
+<a href="https://badge.cps.sp.gov.br//view.aspx?0aa554f7-62cd-49d1-a83a-0119b3409541" target="_blank" style="border:1px solid gray; padding:10px;"><img src="https://badge.cps.sp.gov.br/_files/60ecbd64c97644179b0a11b8320aa942.png" height="150px" width="150px"></a>
+</div>
 <div align="center">
 <h3>🔥 GitHub Streak </h3>
 <table align="center">
